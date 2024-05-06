@@ -4,7 +4,7 @@ import {NavLink} from 'react-router-dom';
 const NavigationBar = () => {
   return (
     <>
-         <Navbar sticky="top" bg="primary" variant="dark" className="mb-4">
+         <Navbar sticky="top" bg="primary" variant="dark" className="">
         <Container>
           <Navbar.Brand as={NavLink} to="/">Simple Client</Navbar.Brand>
           <Nav className="flex-grow-1 justify-content-end">

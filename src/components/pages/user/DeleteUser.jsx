@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react';
 import { NavLink, useNavigate, useParams } from 'react-router-dom';
-import * as userService from '../../services/user.service';
+import * as userService from '../../../services/user.service';
 import { Button } from 'react-bootstrap';
 import { useState } from 'react';
 import { ToastContainer,toast } from 'react-toastify';
-import Layout from '../layout/Layout'
-import DelEmoji from '../svg/DelEmoji';
+import Layout from '../../layout/Layout'
+import DelEmoji from '../../svg/DelEmoji';
 
 
 const DeleteUser = () => {

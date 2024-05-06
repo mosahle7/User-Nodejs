@@ -6,13 +6,13 @@ const Layout = (
     {children}) => {
     return(
         <>
-        <Container fluid>
+        {/* <Container fluid> */}
         {/* <ToastContainer className="Toastify__toast-container--bottom-left"  /> */}
         <NavigationBar/>
-        <Container className='mt-5 mb-5'>
+        {/* <Container className='mt-5 mb-5'> */}
         {children}
-        </Container>
-        </Container>
+        {/* </Container> */}
+        {/* </Container> */}
 
         <Footer/>
         </>

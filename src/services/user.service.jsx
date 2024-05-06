@@ -31,6 +31,7 @@ export const usersList = async() => {
     const {data: apiResponse} = await axios.get(
         getAllUsersUrl
     );
+    // await new Promise(r=> setTimeout(r,2000));
     return apiResponse;
 }
 

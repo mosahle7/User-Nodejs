@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { NavLink, useParams,useNavigate} from 'react-router-dom';
-import * as userService from '../../services/user.service';
+import * as userService from '../../../services/user.service';
 import { ToastContainer,toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.min.css';
 import { Row, Col ,Button, Form} from 'react-bootstrap';
-import Layout from '../layout/Layout';
+import Layout from '../../layout/Layout';
 
 
 const EditUser = () => {

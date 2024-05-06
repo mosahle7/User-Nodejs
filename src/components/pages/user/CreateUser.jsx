@@ -1,12 +1,13 @@
 import axios from 'axios';
-import * as userService from '../../services/user.service';
+import * as userService from '../../../services/user.service';
 import React, { useEffect, useState } from 'react';
 import { Container, Row, Col, Form, Button} from 'react-bootstrap';
 import { ToastContainer,toast} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.min.css';
-import Layout from '../layout/Layout';
+import Layout from '../../layout/Layout';
 import { useNavigate } from 'react-router-dom';
-import CreateEmoji from '../svg/CreateEmoji';
+import CreateEmoji from '../../svg/CreateEmoji';
+// import VForm from '../visme/VForm';
 
 const CreateUser = () => {
   
@@ -103,12 +104,14 @@ const CreateUser = () => {
             <Button variant='primary' type='submit' onClick={submitForm}>
               Add User
             </Button>
-
+ 
           </Form>
         </Col>
 
       </Row>
 
+      {/* <VForm /> */}
+     
       </Layout>
     </>
   );
